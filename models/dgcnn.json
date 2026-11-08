@@ -1,0 +1,17 @@
+{
+ "file": "dgcnn.pt",
+ "sha256": "56a1a89abebc67f34ae4569b9c2f446621bfbedbc0b586f714e73475c34f170f",
+ "parameters": 130181,
+ "epochs": 15,
+ "val": {
+  "epoch": 15,
+  "loss": 0.00755047563889093,
+  "miou": 0.9929373344494067,
+  "accuracy": 0.9977598923766375,
+  "iou_ground": 0.9991027785825771,
+  "iou_building": 0.9955245628642798,
+  "iou_vegetation": 0.979175952062596,
+  "iou_pole": 0.9919805991126298,
+  "iou_vehicle": 0.9989027796249501
+ }
+}
