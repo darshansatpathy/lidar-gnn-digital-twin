@@ -8,6 +8,9 @@
 
 A graph neural network that segments mobile-LiDAR street scans into ground, buildings, vegetation, poles and vehicles, and a **digital twin** built from it: an asset registry of poles, trees and buildings with positions and heights, and **change detection** between two scans of the same street.
 
+> Reference implementation built on synthetic or public data. It distils patterns from production
+> work into code you can run and read; it is not a client system.
+
 From [`docs/evaluation-report.md`](docs/evaluation-report.md), on 12 held-out streets (about 104,000 points each) the model never saw:
 
 | Condition | DGCNN mIoU | Gradient boosting on handcrafted features |
